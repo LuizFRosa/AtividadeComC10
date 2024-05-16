@@ -1,0 +1,36 @@
+# AtividadeComC10
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main () {
+	
+	int primeiroValor,segundoValor;
+	
+		
+	printf("Digite um valor ");
+	scanf("%i", &primeiroValor);
+	
+	printf("Digite mais um valor ");
+	scanf("%i", &segundoValor);
+ 
+
+ // Calculo de duas Variaveis de Valor Novo e Valor Antigo
+
+	int primeiroNovo = segundoValor;
+	
+	int segundoNovo =primeiroValor;
+
+	 
+	
+	printf("\O Primeiro valor antigo e %i", primeiroValor);
+	
+	printf("\O Segundo valor antigo e %i", segundoValor);
+	
+	printf("\O Primeiro valor novo sera %i", primeiroNovo);
+	
+	printf("\O Segundo valor novo sera %i", segundoNovo);
+
+	return 0;
+	
+}
